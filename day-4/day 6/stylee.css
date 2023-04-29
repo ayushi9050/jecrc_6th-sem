@@ -1,0 +1,173 @@
+:root {
+    --primarycolor: #D14D72;
+    --backgroundcolor: #FCC8D1;
+    --myTitleFont: 'Dancing script', cursive;
+    --titlefont: 'Sacramento', cursive;
+}
+
+body {
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif line-height: 20px;
+    text-align: center;
+}
+
+.top-section {
+    color: var(--primarycolor);
+    background-color: var(--backgroundcolor);
+    text-align: center;
+    height: 400px;
+}
+
+.heading-group {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.heading {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Rubik Pixels', cursive;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+h2 {
+    margin: 0;
+    font-size: 1rem;
+    padding-bottom: 10px;
+    font-weight: 100;
+}
+
+hr {
+    border: dotted 5px var(--backgroundcolor);
+    border-bottom: none;
+    margin: 120px auto 120px auto;
+    width: 20%;
+}
+
+.top-cloud {
+    width: 100px;
+    position: absolute;
+    margin-block-start: 3px;
+    margin-left: 500px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    margin-block-start: 5px;
+    margin-left: -500px;
+    width: 100px;
+    margin-top: -300px;
+}
+
+.mountain {
+    width: 500px;
+    margin-top: -230px;
+    position: absolute;
+    margin-left: -400px;
+}
+
+img {
+    margin-bottom: -5px;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto 50px auto;
+}
+
+.profile-picture {
+    border-radius: 100%;
+    /*margin-left: auto;
+    margin-right: auto;*/
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+}
+
+.middle-section {
+    text-align: center;
+    color: palevioletred;
+    width: 50%;
+    margin: auto;
+}
+
+.intro {
+    width: 65%;
+    margin: auto;
+}
+
+.skill-image {
+    width: 150px;
+}
+
+.left {
+    float: left;
+    margin-right: 50px;
+    text-align: left;
+}
+
+.right {
+    float: right;
+    margin-left: 50px;
+    text-align: right;
+}
+
+.my-skills {
+    margin: 0px auto 100px auto;
+}
+
+.skills {
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.contact {
+    text-decoration: none;
+    background-color: var(--primarycolor);
+    padding: 5px;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: antiquewhite;
+    background-image: linear-gradient(180deg);
+}
+
+.contact:hover {
+    background-color: var(--backgroundcolor);
+}
+
+h5 {
+    font-size: 2rem;
+}
+
+.bottom-section {
+    background-color: aquamarine;
+    color: antiquewhite;
+    padding: 80px;
+    margin-top: 80px;
+}
+
+a {
+    color: var(--primarycolor);
+    margin: 10px 50px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+    color: var(--backgroundcolor);
+}
+
+p {
+    color: var(--primarycolor);
+    font-size: .80rem;
+    margin-top: 50px;
+}
+
+p:hover {
+    color: azure;
+}
