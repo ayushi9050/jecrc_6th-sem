@@ -1,0 +1,104 @@
+                div {
+                    /* width: 200px; 
+    height: 200px; */
+                    color: azure;
+                    font-size: 2rem;
+                }
+                
+                .container {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+                    grid-template-rows: 1fr 1fr 2fr 1fr 2fr;
+                }
+                
+                body {
+                    background-color: aqua;
+                }
+                
+                .box {
+                    min-height: 50px;
+                }
+                
+                .maroon {
+                    background-color: maroon;
+                    color: white;
+                    grid-column-start: 1;
+                    grid-column-end: 4;
+                }
+                
+                .red {
+                    background-color: red;
+                    grid-column-start: 1;
+                    grid-column-end: 4;
+                }
+                
+                .pink {
+                    background-color: pink;
+                }
+                
+                .green {
+                    background-color: green;
+                }
+                
+                .blue {
+                    background-color: blue;
+                }
+                
+                .orange {
+                    background-color: orange;
+                    grid-row-start: 1;
+                    grid-row-end: 5;
+                    grid-column-start: 6;
+                    grid-column-end: 7;
+                    animation: pulse 15s infinite;
+                }
+                
+                @keyframes pulse {
+                    0% {
+                        background-color: rgb(47, 255, 78);
+                    }
+                    100% {
+                        background-color: rgb(178, 32, 32);
+                        transform: scale(1.5);
+                    }
+                }
+                
+                .black {
+                    background-color: black;
+                }
+                
+                .white {
+                    background-color: white;
+                    color: black;
+                    grid-row-start: 1;
+                    grid-row-end: 4;
+                    grid-column-end: 8;
+                }
+                
+                .brown {
+                    background-color: brown;
+                    grid-row-start: 1;
+                    grid-column-end: 9;
+                }
+                
+                .aqua {
+                    background-color: olivedrab;
+                }
+                
+                .voilet {
+                    background-color: violet;
+                }
+                
+                .bisque {
+                    background-color: bisque;
+                }
+                
+                .valvet {
+                    background-color: palevioletred;
+                }
+                
+                .magenta {
+                    background-color: magenta;
+                    grid-row-start: 4;
+                    grid-column-end: 8;
+                }
